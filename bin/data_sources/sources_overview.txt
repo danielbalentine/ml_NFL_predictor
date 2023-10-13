@@ -1,0 +1,11 @@
+Fantasy Data - data on stadium details, team stats and betting data
+Link: https://fantasydata.com/api/api-documentation/nfl#/odds
+
+NFL Penalties - who ref'd the game
+https://www.nflpenalties.com/
+
+Five Thirty Eight - details on team ratings
+https://github.com/fivethirtyeight/data/tree/master/nfl-elo
+
+Google Trend Data - shows search stats by week, team popularity could move lines
+https://trends.google.com/home
