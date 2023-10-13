@@ -35,7 +35,8 @@ import NFLDataScraper
 
 def main():
     DataScraper = NFLDataScraper.DataScrape()
-    DataScraper.pullStadiumData()
+    #DataScraper.pullStadiumData()
+    #DataScraper.pullGameData()
 
 
 if __name__ == "__main__":
