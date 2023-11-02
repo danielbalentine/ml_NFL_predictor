@@ -47,9 +47,9 @@ class DataScrape:
         df1.rename(columns = {'Name':'Stadium'}, inplace = True)
         
         #save stadiums data as pickle file
-        with open('data/stadium.pickle', 'wb') as f:
+        with open('data/nfl/stadium.pickle', 'wb') as f:
             pickle.dump(df1, f)
-        df1.to_csv('data/stadium.csv')
+        df1.to_csv('data/nfl/stadium.csv')
 
     def pullGameData(self):
         teamstats = pd.DataFrame()
@@ -124,9 +124,9 @@ class DataScrape:
         teamstats['month'] = teamstats['Date'].dt.month
         teamstats['year'] = teamstats['Date'].dt.year
         teamstats['dayofyear'] = teamstats['Date'].dt.dayofyear
-        teamstats.to_csv('data/teamstats.csv')
+        teamstats.to_csv('data/NFL/teamstats.csv')
         # Save teamstats as a pickle file
-        with open('data/teamstats.pickle', 'wb') as f:
+        with open('data/NFL/teamstats.pickle', 'wb') as f:
             pickle.dump(teamstats, f)
                     
 
